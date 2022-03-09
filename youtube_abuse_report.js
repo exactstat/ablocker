@@ -86,9 +86,9 @@ function report_abuse(){
         
     // Commented to avoid a real report
     // console.log("8. After text - Next button and FINISH");
-    // elem = waitForElement("//*[@id='next-button']").then(async function(elem){await elem[0].click();});
+    // elem = waitForElement("//*[@id='next-button']");
+    // elem.click();
     // console.log("8. After text - Next button and FINISH DONE");
-    // setTimeout(() => { console.log("pause"); }, 1000);
 };
 
 
